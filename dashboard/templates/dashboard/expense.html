@@ -1,0 +1,85 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+      <body>
+        <h1 style="margin: 1px auto;
+        width: 350px;">Expense Tracker</h1>
+
+        <div style="margin: 30px auto;
+        width: 350px;">
+          <h4 style="margin: 0;
+          text-transform: uppercase;">Your Balance</h4>
+          <h1 style="letter-spacing: 1px;
+          margin: 0;" id="balance">INR {{profile.balance}}</h1>
+
+          <div style="background-color: #fff;
+          box-shadow: var(--box-shadow);
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          margin: 20px 0;">
+            <div>
+              <h4>Income</h4>
+              <p id="money-plus" class="money plus">+INR {{profile.income}}</p>
+            </div>
+            <div>
+              <h4>Expense</h4>
+              <p id="money-minus" class="money minus">-INR {{profile.expenses}}</p>
+            </div>
+          </div>
+
+          <h3>Add new transaction</h3>
+          <form id="form" method="POST" autocomplete="off">
+          {% csrf_token %}
+            <div class="form-control">
+              <label for="text">Text</label>
+              <input type="text" required name="text" id="text" placeholder="Enter text..." />
+            </div>
+            <div class="form-control">
+              <label for="amount">Amount <br />
+                </label>
+              <input type="number" required name="amount" id="amount" placeholder="Enter amount..." />
+            </div>
+            <div class="form-control">
+              <label for="text">Add/Remove</label>
+              <select name="expense_type" required class="form-cotrol">
+                <option value='Positive'>Positive</option>
+                <option value='Negative'>Negative</option>
+              </select>
+            </div>
+            <button class="btn" typt="submit">Add transaction</button>
+          </form>
+          <h3>History</h3>
+          <ul id="list" style="list-style-type: none;
+          padding: 0;
+          margin-bottom: 40px;">
+            {% for expense in expenses %}
+                {% if expense.expense_type == 'Negative' %}
+                    <li style="border-right: 5px solid #c0392b;background-color: #fff;
+                    box-shadow: var(--box-shadow);
+                    color: #333;
+                    display: flex;
+                    justify-content: space-between;
+                    position: relative;
+                    padding: 10px;
+                    margin: 10px 0;">
+                    {{expense.name}}<span>INR {{expense.amount}}</span>
+                    </li>
+                {% else %}
+                    <li style="border-right: 5px solid #2ecc71;background-color: #fff;
+                    box-shadow: var(--box-shadow);
+                    color: #333;
+                    display: flex;
+                    justify-content: space-between;
+                    position: relative;
+                    padding: 10px;
+                    margin: 10px 0;">
+                    {{expense.name}}<span>INR {{expense.amount}}</span>
+                    </li>
+                {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </body>
+{% endblock content %}
