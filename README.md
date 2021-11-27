@@ -7,15 +7,15 @@
 <h2>Solution Approach:</h2>
     <h3> StudentEngagePortal is a portal with following features in its dashboard to make student's life easy and more manageable.</h3> 
     <ol>
-        <li>Notes : User can create text notes and refer them later, they are stored permanently until deleted.</li>
-        <li>Homework: User can add homeworks and assign them deadlines, they will be displayed prioritised by deadlines.</li>
-        <li>Youtube Search: User can perform Youtube search and select desired video to play it on youtube.</li>
-        <li>To Do: User can add to-do lists for your day and remove them as you finish.</li>
-        <li>Books: User can browse books from a list of neatly organised book menu.</li>
-        <li>Dictionary: User can enter a word, and the meaning along with phonetic sound will be displayed almost instantaneously.</li>
-        <li>Wikipedia: User can search wikipedia to get fast results.</li>
-        <li>Expense Tracker: A virtual wallet is implemented to help the user to manage the expenses and keep track of it.</li>
-        <li>Profile : This will display all the pending todos and hmeworks to the user.</li>
+        <li>Notes : Users can create text notes and refer them later, they are stored permanently until deleted.</li>
+        <li>Homework: Users can add homeworks and assign them deadlines, they will be displayed prioritised by deadlines.</li>
+        <li>Youtube Search: Users can perform Youtube search and select desired video to play it on youtube.</li>
+        <li>To Do: Users can add to-do lists for your day and remove them as you finish.</li>
+        <li>Books: Users can browse books from a list of neatly organised book menu.</li>
+        <li>Dictionary: Users can enter a word, and the meaning along with phonetic sound will be displayed almost instantaneously.</li>
+        <li>Wikipedia: Users can search wikipedia to get fast results.</li>
+        <li>Expense Tracker: A virtual wallet is implemented to help the users to manage their expenses and keep track of it.</li>
+        <li>Profile : This will display all the pending todos and homeworks to the users.</li>
     </ol>
     
 <h2>Technologies Used:</h2>
