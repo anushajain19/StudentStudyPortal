@@ -3,14 +3,11 @@
 
 <h2>Challenge Statement:</h2>
 
-<ol>
-    <li>Build a functional prototype of a platform that gives students an array of digital academic and social tools to stay engaged with their studies, peers and broader university community during pandemic.</li>
-</ol>
+    <h3>Build a functional prototype of a platform that gives students an array of digital academic and social tools to stay engaged with their studies, peers and broader university community during pandemic.</h3>
 
 <h2>Solution Approach:</h2>
-<ol>
-    <li> StudentEngagePortal is a portal with following features to make student's life easy and more manageable.</li> 
-</ol>
+    <h3> StudentEngagePortal is a portal with following features to make student's life easy and more manageable.</h3> 
+
 
 <h2>Technologies Used:</h2>
 <ul>
