@@ -10,7 +10,7 @@
         <li>Notes : Users can create text notes and refer them later, they are stored permanently until deleted.</li>
         <li>Homework: Users can add homeworks and assign them deadlines, they will be displayed prioritised by deadlines.</li>
         <li>Youtube Search: Users can perform Youtube search and select desired video to play it on youtube.</li>
-        <li>To Do: Users can add to-do lists for your day and remove them as you finish.</li>
+        <li>To Do: Users can add to-do lists for their day and remove them as the work is finished.</li>
         <li>Books: Users can browse books from a list of neatly organised book menu.</li>
         <li>Dictionary: Users can enter a word, and the meaning along with phonetic sound will be displayed almost instantaneously.</li>
         <li>Wikipedia: Users can search wikipedia to get fast results.</li>
