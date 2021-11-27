@@ -11,7 +11,7 @@
         <li>Homework: User can add homeworks and assign them deadlines, they will be displayed prioritised by deadlines.</li>
         <li>Youtube Search: User can perform Youtube search and select desired video to play it on youtube.</li>
         <li>To Do: User can add to-do lists for your day and remove them as you finish.</li>
-        <li>Books: User can bowse books from a list of neatly organised book menu.</li>
+        <li>Books: User can browse books from a list of neatly organised book menu.</li>
         <li>Dictionary: User can enter a word, and the meaning along with phonetic sound will be displayed almost instantaneously.</li>
         <li>Wikipedia: User can search wikipedia to get fast results.</li>
         <li>Expense Tracker: A virtual wallet is implemented to help the user to manage the expenses and keep track of it.</li>
