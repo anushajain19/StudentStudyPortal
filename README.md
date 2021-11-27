@@ -1,5 +1,5 @@
 # StudentEngagePortal
-# Django-WebApp       <img alt="GitHub" src="https://img.shields.io/github/license/smahesh29/Django-WebApp">
+# Django-WebApp      
 
 <h2>Challenge Problem Statement:</h2>
 
