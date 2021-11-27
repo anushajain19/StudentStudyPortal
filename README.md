@@ -62,7 +62,5 @@
 # Working:
 [![Watch the video]()
 
-# Screenshots : 
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_36.png" height="400" width="800">
 
 
