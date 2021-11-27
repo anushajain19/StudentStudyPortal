@@ -15,7 +15,7 @@
         <li>Dictionary: User can enter a word, and the meaning along with phonetic sound will be displayed almost instantaneously.</li>
         <li>Wikipedia: User can search wikipedia to get fast results.</li>
         <li>Expense Tracker: A virtual wallet is implemented to help the user to manage the expenses and keep track of it.</li>
-        <li>Prfile : This will display all the pending todos and hmeworks to the user.</li>
+        <li>Profile : This will display all the pending todos and hmeworks to the user.</li>
     </ol>
     
 <h2>Technologies Used:</h2>
