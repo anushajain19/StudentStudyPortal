@@ -12,7 +12,7 @@
         <li>Youtube Search: Users can perform Youtube search and select desired video to play it on youtube.</li>
         <li>To Do: Users can add to-do lists for their day and remove them as the work is finished.</li>
         <li>Books: Users can browse books from a list of neatly organised book menu.</li>
-        <li>Dictionary: Users can enter a word, and the meaning will be displayed along with phonetic sound instantaneously.</li>
+        <li>Dictionary: Users can enter a word, and the meaning will be displayed along with its phonetic description instantaneously.</li>
         <li>Wikipedia: Users can search wikipedia to get fast results.</li>
         <li>Expense Tracker: A virtual wallet is implemented to help the users to manage their expenses and keep track of it.</li>
         <li>Profile : This will display all the pending todos and homeworks to the users.</li>
