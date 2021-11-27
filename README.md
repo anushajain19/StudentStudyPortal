@@ -1,10 +1,15 @@
 # StudentEngagePortal
 # Django-WebApp      
 
-<h2>Challenge Problem Statement:</h2>
+<h2>Challenge Statement:</h2>
 
 <ol>
     <li>Build a functional prototype of a platform that gives students an array of digital academic and social tools to stay engaged with their studies, peers and broader university community during pandemic.</li>
+</ol>
+
+<h2>Solution Approach:</h2>
+<ol>
+    <li> StudentEngagePortal is a portal with following features to make student's life easy and more manageable.</li> 
 </ol>
 
 <h2>Technologies Used:</h2>
