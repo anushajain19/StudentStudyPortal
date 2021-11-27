@@ -43,13 +43,17 @@ class Profile(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     income = models.FloatField(default=0)
     expenses = models.FloatField(default=0)
-    amount = models.FloatField()
-    balance = models.FloatField(blank=True , null=True)
+    amount = models.FloatField(default=0)
+    balance = models.FloatField(default=0)
+
+    def __str__(self):
+        return str(self.user)
+
 
 class Expense(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
-    amount = models.FloatField()
+    amount = models.FloatField(default=0)
     expense_type = models.CharField(max_length=100,choices=TYPE)
 
     def __str__(self):

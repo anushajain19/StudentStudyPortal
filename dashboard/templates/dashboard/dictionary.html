@@ -3,7 +3,7 @@
 {% block content %}
 <section class='text-center container'>
     <h2>Student Dictionary</h2>
-    <p>Enter any word to get the phonetics, definition and an example for the word</p>
+    <p>Enter any word to get the phonetics and definition for the word</p>
     <form action="" method="post" autocomplete="off">
         {% csrf_token %}
         {{form}}
@@ -29,7 +29,7 @@
 
     </div>
     {% else %}
-    <h2>Sorry, API request limit exceeded</h2>
+    <h2>Enter the word above!</h2>
 {% endif %}
 </section>
 {% endblock content %}

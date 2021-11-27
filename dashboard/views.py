@@ -266,40 +266,47 @@ def wiki(request):
         }
     return render(request, 'dashboard/wiki.html', context)
 
+def username_exists(username):
+    return User.objects.filter(username=username).exists()
+
 @login_required
 def expense(request):
-    profile=Profile.objects.filter(user = request.user).first()
+    profiles=Profile.objects.filter(user = request.user).first()
     expenses=Expense.objects.filter(user = request.user)
+    profile = Profile(user = request.user)
+    profile.save()
 
     if request.method == "POST":
         text = request.POST.get('text')
         amount = request.POST.get('amount')
         expense_type = request.POST.get('expense_type')
-
         expense = Expense(name=text , amount = amount , expense_type=expense_type , user = request.user)
         expense.save()
 
+
         if expense_type=='Positive':
-            profile.balance += float(amount)
-            profile.income += float(amount)
+            profiles.balance += float(amount)
+            profiles.income += float(amount)
         else:
-            profile.expenses += float(amount)
-            profile.balance -= float(amount)
-        profile.save()
+            profiles.expenses += float(amount)
+            profiles.balance -= float(amount)
+        profiles.save()
         return redirect("expense")
     context={
-        'profile':profile,
+        'profiles':profiles,
         'expenses':expenses
          }
     return render(request, 'dashboard/expense.html', context)
 
 
 def register(request):
+
     if request.method == "POST":
         form = UserRegistrationForm(request.POST)
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
+
             messages.success(request, f"Account Created for {username}!!")
             return redirect("login")
     else:
@@ -307,6 +314,7 @@ def register(request):
     context = {
         'form': form
     }
+
     return render(request, 'dashboard/register.html', context)
 
 @login_required
