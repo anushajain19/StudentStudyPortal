@@ -1,4 +1,4 @@
-# StudentEngagePortal
+# StudentStudyPortal
 # Django-WebApp      
 
 <h2>Challenge Statement:</h2>
