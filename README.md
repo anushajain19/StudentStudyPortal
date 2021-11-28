@@ -43,12 +43,7 @@
 <h2>Note :</h2>
 
 <b>The Secret_Key required for the execution and debugging of project is not removed from the project code.</b>
-  <h2>Admin Login Credentials for database :</h2>
-<ul>
-  <li>Username : root</li>
-  <li>Password : 1234</li>
-</ul>
-
+  
 <h2>Usage :</h2>
 
     python django_web_app/manage.py makemigrations
@@ -58,6 +53,13 @@
     python django_web_app/manage.py runserver
     
    In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/
+   
+<h2>Admin Login Credentials for database :</h2>
+<ul>
+  <li>Username : root</li>
+  <li>Password : 1234</li>
+ In your web browser enter the address : http://127.0.0.1:8000/admin to view the database structure 
+</ul>
 
 # Working:
 [![Watch the video]()
