@@ -5,7 +5,7 @@
     <h3>Build a functional prototype of a platform that gives students an array of digital academic and social tools to stay engaged with their studies, peers and broader university community during pandemic.</h3>
 
 <h2>Solution Approach:</h2>
-    <h3> StudentEngagePortal is a portal with following features in its dashboard to make student's life easy and more manageable.</h3> 
+    <h3> StudentStudyPortal is a portal with following features in its dashboard to make student's life easy and more manageable.</h3> 
     <ol>
         <li>Notes : Users can create text notes and refer them later, they are stored permanently until deleted.</li>
         <li>Homework: Users can add homeworks and assign them deadlines, they will be displayed prioritised by deadlines.</li>
